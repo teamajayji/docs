@@ -9,6 +9,20 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Documentation",
+          "icon": "book-open-cover",
+          "href": "https://mintlify.com/docs"
+        },
+        {
+          "anchor": "Blog",
+          "icon": "newspaper",
+          "href": "https://mintlify.com/blog"
+        }
+      ]
+    },
     "tabs": [
       {
         "tab": "Guides",
@@ -17,8 +31,27 @@
             "group": "Getting started",
             "pages": [
               "index",
-              "quickstart",
-              "development"
+              "getting-started",
+              "the-asynchronous-scribe",
+              "advanced-transcription-model-management",
+              "the-chat-experience",
+              "your-conversational-ai-companion-on-i-os",
+              "execution-history-and-analytics",
+              "fine-tune-your-own-ai-models",
+              "the-java-script-parser-builder",
+              "jupyter-notebook-integration",
+              "label-studio-integration",
+              "local-network-rag",
+              "the-model-management-hub",
+              "native-mac-os-experience",
+              "on-device-llm-integration",
+              "on-device-translation",
+              "the-on-device-vector-store",
+              "persistent-toolboxes",
+              "craft-your-own-ai-with-personas",
+              "the-private-knowledge-base-rag",
+              "simplified-rag",
+              "tabbed-navigation"
             ]
           },
           {
@@ -67,21 +100,7 @@
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",

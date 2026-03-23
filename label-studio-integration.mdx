@@ -1,0 +1,21 @@
+---
+title: Label Studio Integration
+description: Supercharge Your Data Labeling
+---
+
+**aj** integrates directly with Label Studio, the popular open-source data labeling tool, turning your on-device AI models into a powerful ML backend for annotation tasks.
+
+**How it Works:**
+
+You can configure Label Studio to use your **aj** app as a custom Machine Learning backend. When you're labeling a dataset, you can simply click a button to have one of your on-device models pre-annotate the data for you.
+
+1.  **Start the In-App Server:** Activate the `HostedRagService` from within the app.
+2.  **Connect Label Studio:** In your Label Studio project settings, add the **aj** app as an ML backend.
+3.  **Pre-annotate with Your Models:** When labeling your data, the "Predict" button will now send the task to your **aj** app.
+
+**Key Benefits:**
+
+*   **Use Your Own Models:** Leverage your own fine-tuned, custom, or open-source models running locally on your machine.
+*   **Accelerate Annotation:** Pre-annotation significantly speeds up the manual labeling process.
+*   **Ensure Data Privacy:** Because the entire workflow runs on your local network, your sensitive data never leaves your control.
+*   **Zero-Dependency Integration:** The integration is built directly into the app.

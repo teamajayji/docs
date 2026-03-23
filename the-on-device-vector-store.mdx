@@ -1,0 +1,16 @@
+---
+title: The On-Device Vector Store
+description: Under the Hood
+---
+
+The ability to chat with your documents and create a private knowledge base is powered by a sophisticated, on-device vector store.
+
+**How It Works:**
+
+When you import a document, the app breaks it down into chunks of text and generates a "vector embedding" for each chunk. This vector, along with the original text, is saved to the on-device vector store. When you ask a question, the app generates a vector for your question and then uses a high-speed search algorithm to find the text chunks in the database with the most similar vectors.
+
+**Key Architectural Features:**
+
+*   **Private and Secure:** The vector store is powered by an embedded, on-device database.
+*   **Multiple, Isolated Stores:** You can create multiple, named vector stores.
+*   **Built for Speed:** The vector store is built on a high-performance database and uses a state-of-the-art HNSW index for its vector search.

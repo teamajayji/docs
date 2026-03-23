@@ -1,0 +1,17 @@
+---
+title: Persistent Toolboxes
+description: Per-Model Jupyter Orchestration
+---
+
+To give you precise control over your AI agents, **aj** allows you to create persistent "toolboxes" for each of your models. When using the Jupyter Notebook Integration, you can select exactly which of your notebooks a specific model is allowed to use.
+
+**How It Works:**
+
+From the chat screen for any model, you can access a tool selection dialog. This dialog lists all your registered Jupyter notebooks, and you can simply check the ones you want to make available to that specific model.
+
+**Key Benefits:**
+
+*   **You're in Control:** You decide which tools are appropriate for which model.
+*   **Improved Accuracy:** By providing the LLM with a smaller, curated list of relevant tools, you reduce the chances of it getting confused.
+*   **Consistent Behavior:** Because the tool configuration is saved to the model's profile, its capabilities are the same every time you use it.
+*   **Efficient and Focused:** This approach makes the underlying system prompt that is sent to the LLM smaller and more focused.

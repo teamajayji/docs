@@ -1,0 +1,20 @@
+---
+title: Fine-Tune Your Own AI Models
+description: Advanced Feature
+---
+
+For power users who want to go a step further, **aj** provides a unique workflow to create your own custom AI models, fine-tuned on your own data. This feature acts as an orchestrator, guiding you through a professional-grade training process while leveraging powerful external tools.
+
+**The Goal:** To create a specialized model (in `.gguf` format) that understands your unique terminology, data, and needs, which you can then use locally and privately within the application.
+
+**How it Works:**
+
+The app guides you through a persistent, step-by-step process:
+
+1.  **Connect Your Tools:** The workflow starts by connecting to your Google Drive and your [Label Studio](https://labelstud.io/) instance, a popular open-source data labeling tool.
+2.  **Prepare Your Data:** **aj** helps you configure a "fine-tuning run" by selecting a base model to start from and the dataset you've prepared in Label Studio.
+3.  **Orchestrate the Job:** The app then prepares and organizes all the necessary files in your Google Drive, including your dataset and a specialized training notebook.
+4.  **Train in Google Colab:** You'll be directed to open the notebook in Google Colab, a powerful environment that provides free access to GPUs for the computationally-intensive training process.
+5.  **Download Your Custom Model:** Once training is complete, the app helps you download the resulting model file directly from your Google Drive and registers it within **aj**, making it immediately available for use in your workflows.
+
+Because this can be a long process, every step is saved in a "Fine-Tuning Run." You can manage multiple training jobs at once and resume a run at any time, picking up exactly where you left off. This advanced feature puts the power of custom AI directly in your hands.
